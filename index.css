@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 .navbar {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #AFE1AF; /* Celadon */
+    height: 196px;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+}
+
+.list-hover:hover {
+    background-color: #B18CF1; /* soft lavender */
+    /* color: #D0B787; */
+       
 }
