@@ -13,6 +13,7 @@
 
 .navbar a {
     text-decoration: none;
+    color: black;
     display: inline;
     margin: 0px;
     padding: 10px;
